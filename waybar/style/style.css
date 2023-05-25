@@ -1,0 +1,135 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "VictorMono Nerd Font";
+    font-weight: bold;
+    font-size: 12px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(21, 18, 27, 0);
+    color: #c0caf5;
+}
+
+tooltip {
+    background: #24283b;
+    opacity: 0.8;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #1a1b26;
+}
+
+tooltip label{
+    color: #c0caf5;
+}
+
+#workspaces button {
+    padding: 5px;
+    color: #565f89;
+    margin-right: 5px;
+}
+
+#workspaces button.active {
+    color: #7aa2f7;
+}
+
+#workspaces button.focused {
+    color: #a9b1d6;
+    background: #ff9e64;
+    border-radius: 10px;
+}
+
+#workspaces button.urgent {
+    color: #1a1b26;
+    background: #9ece6a;
+    border-radius: 10px;
+}
+
+#workspaces button:hover {
+    background: #1a1b26;
+    color: #c0caf5;
+    border-radius: 10px;
+}
+
+#custom-launch_wofi,
+#custom-lock_screen,
+#custom-power_btn,
+#custom-weather,
+#window,
+#cpu,
+#disk,
+#taskbar,
+#custom-updates,
+#memory,
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#tray,
+#temperature,
+#workspaces,
+#backlight {
+    background: #1a1b26;
+    opacity: 0.8;
+    padding: 0px 10px;
+    margin: 3px 0px;
+    margin-top: 10px;
+    border: 0px;
+}
+
+#tray, #custom-lock_screen, #temperature, #backlight, #custom-launch_wofi, #cpu {
+    border-radius: 10px 0px 0px 10px;
+}
+
+#custom-power_btn, #workspaces, #pulseaudio.microphone, #battery, #disk, #custom-weather {
+    border-radius: 0px 10px 10px 0px;
+    margin-right: 10px;
+}
+
+#temperature.critical {
+    color: #f7768e;
+}
+
+#temperature {
+    color: #e0af68;
+}
+
+#workspaces {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#window {
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#custom-launch_wofi {
+    color: #7aa2f7;
+    margin-left: 10px;
+    border-right: 0px;
+}
+
+#pulseaudio {
+    color: #7dcfff;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#pulseaudio.microphone {
+    color: #bb9af7;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#battery {
+    color: #9ece6a;
+    border-left: 0px;
+}
+
+#backlight {
+    color: #73daca;
+}
